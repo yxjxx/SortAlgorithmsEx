@@ -35,7 +35,7 @@ int main() {
 //    yj_shell_sort(myArr, len, stepArr, 4);
 
     //冒泡排序
-    yj_bubble_sort(myArr, len);
+//    yj_bubble_sort2(myArr, len);
 
     //快速排序
 //    yj_quick_sort(myArr, 0, len-1);

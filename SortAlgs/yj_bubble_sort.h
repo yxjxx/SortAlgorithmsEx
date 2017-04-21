@@ -6,7 +6,7 @@
 #define SORTALGORITHMSEX_YJ_BUBBLE_SORT_H
 
 
-void yj_bubble_sort(int myArr[], int len);
+void yj_bubble_sort2(int myArr[], int len);
 
 
 #endif //SORTALGORITHMSEX_YJ_BUBBLE_SORT_H
