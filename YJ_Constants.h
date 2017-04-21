@@ -1,0 +1,11 @@
+//
+// Created by Jing Yang on 2017/04/20Thursday.
+//
+
+#ifndef SORTALGORITHMSEX_YJ_CONSTANTS_H
+#define SORTALGORITHMSEX_YJ_CONSTANTS_H
+
+#define SORT_NUM 10
+#define NUM_RANGE 100
+
+#endif //SORTALGORITHMSEX_YJ_CONSTANTS_H
