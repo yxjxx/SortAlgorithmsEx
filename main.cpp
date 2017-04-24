@@ -9,6 +9,7 @@
 #include "SortAlgs/yj_bubble_sort.h"
 #include "SortAlgs/yj_quick_sort.h"
 #include "SortAlgs/yj_simple_select_sort.h"
+#include "SortAlgs/yj_heap_sort.h"
 
 using namespace std;
 
@@ -42,8 +43,11 @@ int main() {
 //    yj_quick_sort(myArr, 0, len-1);
 
     //简单选择排序
-    yj_simple_select_sort(myArr, len);
+//    yj_simple_select_sort(myArr, len);
 
+
+    //堆排序
+    yj_heap_sort(myArr, len);
 
     cout << "sorted array: ";
     print_array(myArr, len);

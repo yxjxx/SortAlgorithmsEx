@@ -14,4 +14,6 @@ void create_array_with_random_numbers(int myArr[], int len);
 
 void print_array(int myArr[], int len);
 
+void swap_element_in_array(int myArr[], int first, int second);
+
 #endif //SORTALGORITHMSEX_YJ_HELPERMETHOD_H

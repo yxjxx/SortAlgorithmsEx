@@ -39,3 +39,9 @@ void print_array(int myArr[], int len) {
     }
     cout << endl;
 }
+
+void swap_element_in_array(int myArr[], int first, int second) {
+    int temp = myArr[first];
+    myArr[first] = myArr[second];
+    myArr[second] = temp;
+}
