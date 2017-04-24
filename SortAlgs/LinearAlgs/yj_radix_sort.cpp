@@ -10,8 +10,8 @@
  *
  *          有的书介绍基数排序的时候用到了放置到桶中（具有队列先进先出的特性的桶），然后再收集的方法，实质上就是一次稳定的排序过程
  *
- *  @analysis  时间复杂度O( d*(n+k) ),d为最大位数，n为数组中元素的个数，k为数组中元素使用的进制（本例为10）
- *             空间复杂度O(k)
+ *  @analysis  时间复杂度O( d*n ),d为最大位数，n为数组中元素的个数
+ *             空间复杂度O(d+n), 基数排序是稳定的
  */
 void yj_radix_sort(int myArr[], int len){
     int bit_num = largest_num_bits(myArr, len);
