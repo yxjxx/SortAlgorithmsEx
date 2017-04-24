@@ -12,6 +12,7 @@
 #include "SortAlgs/yj_heap_sort.h"
 #include "SortAlgs/yj_merge_sort.h"
 #include "SortAlgs/LinearAlgs/yj_counting_sort.h"
+#include "SortAlgs/LinearAlgs/yj_radix_sort.h"
 
 using namespace std;
 
@@ -61,7 +62,11 @@ int main() {
  *     常见的排序算法中还有三种线性时间复杂度的排序算法，时间复杂度可以到O(n)。分别为：计数排序，基数排序，桶排序
  */
 
-    yj_counting_sort(myArr, len);
+    // 计数排序
+//    yj_counting_sort(myArr, len);
+
+    //基数radix（每一位）排序
+    yj_radix_sort(myArr, len);
 
     cout << "sorted array: ";
     print_array(myArr, len);
