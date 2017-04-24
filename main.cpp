@@ -11,6 +11,7 @@
 #include "SortAlgs/yj_simple_select_sort.h"
 #include "SortAlgs/yj_heap_sort.h"
 #include "SortAlgs/yj_merge_sort.h"
+#include "SortAlgs/LinearAlgs/yj_counting_sort.h"
 
 using namespace std;
 
@@ -51,7 +52,16 @@ int main() {
 //    yj_heap_sort(myArr, len);
 
     //2路归并排序
-    yj_merge_sort(myArr, 0, len-1);
+//    yj_merge_sort(myArr, 0, len-1);
+
+/*
+ *  比较排序总结：
+ *     比较排序即需要比较待排序的序列中元素的相互大小来确定先后关系，他们的时间复杂度下限是O(n*logn)
+ *
+ *     常见的排序算法中还有三种线性时间复杂度的排序算法，时间复杂度可以到O(n)。分别为：计数排序，基数排序，桶排序
+ */
+
+    yj_counting_sort(myArr, len);
 
     cout << "sorted array: ";
     print_array(myArr, len);
