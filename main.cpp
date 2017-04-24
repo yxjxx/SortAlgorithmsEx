@@ -10,6 +10,7 @@
 #include "SortAlgs/yj_quick_sort.h"
 #include "SortAlgs/yj_simple_select_sort.h"
 #include "SortAlgs/yj_heap_sort.h"
+#include "SortAlgs/yj_merge_sort.h"
 
 using namespace std;
 
@@ -47,7 +48,10 @@ int main() {
 
 
     //堆排序
-    yj_heap_sort(myArr, len);
+//    yj_heap_sort(myArr, len);
+
+    //2路归并排序
+    yj_merge_sort(myArr, 0, len-1);
 
     cout << "sorted array: ";
     print_array(myArr, len);
